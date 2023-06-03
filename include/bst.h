@@ -57,7 +57,7 @@ class BST {
   void add(T value) {
     root = addNode(root, value);
   }
-  int d() {
+  int depth() {
     return heightTree(root) - 1;
   }
   int search(T value) {
